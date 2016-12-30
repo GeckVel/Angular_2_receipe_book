@@ -1,6 +1,7 @@
+import { Router } from "@angular/router";
+
 import { RecipesComponent } from "./recipes/recipes.component";
 import { ShoppingListComponent } from "./shopping-list/shopping-list.component";
-import { Router } from "@angular/router";
 import {RECIPE_ROUTES} from "./recipes/recioes.routes";
 
 export const APP_ROUTES_PROVIDERS: Router = [
